@@ -4,7 +4,7 @@ let unit = prompt("Veuillez saisir une unité (°C, °F, K)");
 const UNIT = ["C", "F", "K"];
 
 while(isNaN(temperature)){
-    alert("Veuillez saisir valeur numérique de température !")
+    alert("Veuillez saisir une valeur numérique de température !")
     temperature = prompt("Veuillez saisir une température")
 }
 
